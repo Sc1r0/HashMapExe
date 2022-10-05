@@ -5,7 +5,7 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
 
-        // Create new HashMap
+        // Create new HashMap<K, V>
         HashMap<Students, Integer> ObjectStudents = new HashMap<>();
 
         // Make some new students
@@ -22,7 +22,7 @@ public class Main {
 
         // Add some students to the ObjectStudents HashMap.
         // ObjectStudents.put(K, V) -->
-        // K = Key (with which the specified Value is to be associated with
+        // K = Key (with which the specified Value is to be associated with)
         // V = Value (the value to be associated with the specified Key)
         ObjectStudents.put(A, 7); // We associate the integer 7 to Student A.
         ObjectStudents.put(B, 7); // We associate the integer 7 to Student B.
